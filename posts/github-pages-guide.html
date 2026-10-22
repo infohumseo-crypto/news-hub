@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Build and Host a Free Website on GitHub Pages | The Daily Draft</title>
+<meta name="description" content="From an empty repository to a live site at username.github.io in about ten minutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body data-root="../">
+<div class="progress" id="progress"></div>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="../index.html">The Daily<span>Draft</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#posts">Articles</a></li>
+      <li><a href="../about.html">About</a></li>
+    </ul>
+    <div>
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode">🌙</button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main class="article">
+  <a class="back" href="../index.html">← All articles</a>
+  <span class="tag" style="margin-top:24px">Tech</span>
+  <h1>Build and Host a Free Website on GitHub Pages</h1>
+  <div class="meta">Oct 8, 2026 · 4 min read</div>
+
+  <p>GitHub Pages serves static websites straight from a repository, for free, over HTTPS. It is a great home for a blog, portfolio or documentation site.</p>
+
+  <h2>Steps</h2>
+  <ol>
+    <li>Create a new public repository on GitHub.</li>
+    <li>Upload your <code>index.html</code>, CSS and other files.</li>
+    <li>Open <strong>Settings → Pages</strong>.</li>
+    <li>Under Source, choose <code>Deploy from a branch</code>, select <code>main</code> and <code>/ (root)</code>, then save.</li>
+    <li>Wait a minute or two and open your live link.</li>
+  </ol>
+
+  <h2>Your web address</h2>
+  <p>If the repository is named <code>username.github.io</code>, the site lives at the root of that address. Any other repository name is served at a sub-path, for example:</p>
+  <pre><code>https://username.github.io/my-blog/</code></pre>
+
+  <h2>Use your own domain later</h2>
+  <p>You can connect a custom domain in the same Pages settings once you are ready. Until then, the free github.io address works well.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year">2026</span> The Daily Draft. All rights reserved.</span>
+  </div>
+</footer>
+<script src="../script.js"></script>
+</body>
+</html>

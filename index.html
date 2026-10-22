@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Daily Draft | Ideas on writing, SEO and the web</title>
+<meta name="description" content="Practical articles on writing, SEO and building for the web.">
+<meta property="og:title" content="The Daily Draft">
+<meta property="og:description" content="Practical articles on writing, SEO and building for the web.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-root="">
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html">The Daily<span>Draft</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="index.html#posts">Articles</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div>
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode">🌙</button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <span class="eyebrow">New articles every week</span>
+    <h1>Ideas worth reading on writing, SEO and the web.</h1>
+    <p>Clear, practical guides for people who want to build an audience online.</p>
+    <a class="btn" href="#posts">Read the latest</a>
+  </section>
+
+  <section id="posts">
+    <div class="controls">
+      <input class="search" id="search" type="search" placeholder="Search articles..." aria-label="Search articles">
+      <div class="chips" id="chips"></div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="newsletter">
+    <h2>Get new posts in your inbox</h2>
+    <p>One useful email a week. No spam, unsubscribe anytime.</p>
+    <form id="newsletter">
+      <input type="email" required placeholder="you@example.com" aria-label="Email address">
+      <button class="btn" type="submit">Subscribe</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year">2026</span> The Daily Draft. All rights reserved.</span>
+    <span><a href="about.html">About</a></span>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
