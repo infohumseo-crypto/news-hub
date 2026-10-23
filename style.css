@@ -90,3 +90,13 @@ a:hover{text-decoration:underline}
   .nav-links.open{display:flex}
   .hero{padding:56px 0 36px}
 }
+
+/* table of contents + related */
+.toc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px 22px;margin:0 0 30px}
+.toc ul{list-style:none;padding:0;margin:10px 0 0}
+.toc li{font-family:var(--font);font-size:.95rem;margin:0 0 6px}
+.related{margin-top:48px;padding-top:24px;border-top:1px solid var(--border)}
+.related h2{margin-top:0}
+.related ul{list-style:none;padding:0}
+.related li{font-family:var(--font);margin-bottom:10px}
+.article h2{scroll-margin-top:84px}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://infohumseo-crypto.github.io/news-hub/sitemap.xml

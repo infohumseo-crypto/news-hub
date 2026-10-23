@@ -1,6 +1,56 @@
 // Edit this list to add new posts. Each post links to its own HTML file.
 const POSTS = [
   {
+    title: "Keyword Research for Beginners: A Free Step-by-Step Guide",
+    slug: "posts/keyword-research-for-beginners.html",
+    category: "Marketing",
+    emoji: "🔎",
+    color: "linear-gradient(135deg,#e0e7ff,#c7d2fe)",
+    date: "2026-10-23",
+    read: "3 min read",
+    excerpt: "Learn how to find blog keywords people actually search for, judge search intent and pick low-competition topics using free tools."
+  },
+  {
+    title: "On-Page SEO Checklist: 15 Things to Check Before You Publish",
+    slug: "posts/on-page-seo-checklist.html",
+    category: "Marketing",
+    emoji: "✅",
+    color: "linear-gradient(135deg,#dcfce7,#bbf7d0)",
+    date: "2026-10-23",
+    read: "3 min read",
+    excerpt: "A practical on-page SEO checklist covering titles, headings, URLs, images, internal links and page speed to review before every post goes live."
+  },
+  {
+    title: "How to Write SEO Titles and Meta Descriptions That Get Clicks",
+    slug: "posts/seo-titles-and-meta-descriptions.html",
+    category: "Writing",
+    emoji: "🏷️",
+    color: "linear-gradient(135deg,#fce7f3,#fbcfe8)",
+    date: "2026-10-23",
+    read: "3 min read",
+    excerpt: "Write better title tags and meta descriptions with simple formulas, length guidelines and real examples that help your blog posts earn more clicks."
+  },
+  {
+    title: "How to Get Backlinks to a New Website Without Spending Money",
+    slug: "posts/get-backlinks-to-a-new-website.html",
+    category: "Marketing",
+    emoji: "🔗",
+    color: "linear-gradient(135deg,#ffedd5,#fed7aa)",
+    date: "2026-10-23",
+    read: "3 min read",
+    excerpt: "Seven ethical ways to earn backlinks to a new blog: guest posts, original data, helpful resources, directories, outreach and more, with no paid links."
+  },
+  {
+    title: "How to Make Money Blogging: 7 Realistic Ways to Earn From Your Blog",
+    slug: "posts/how-to-make-money-blogging.html",
+    category: "Business",
+    emoji: "💰",
+    color: "linear-gradient(135deg,#fef9c3,#fde68a)",
+    date: "2026-10-23",
+    read: "3 min read",
+    excerpt: "Discover seven realistic ways to earn money from a blog, including affiliate links, ads, digital products and services, plus what to do first."
+  },
+  {
     title: "How to Start a Blog That People Actually Read",
     slug: "posts/start-a-blog.html",
     category: "Writing",
